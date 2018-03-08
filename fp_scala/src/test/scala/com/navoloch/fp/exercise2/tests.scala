@@ -1,9 +1,12 @@
-package com.navoloch
+package com.navoloch.fp.exercise2
 
 import org.scalatest._
-import com.navoloch.exercise2._
 
-class Exercise2 extends FlatSpec with Matchers {
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
+
+@RunWith(classOf[JUnitRunner])
+class tests extends FlatSpec with Matchers {
 
   //<editor-fold desc="Exercise 2.1">
 
@@ -39,7 +42,5 @@ class Exercise2 extends FlatSpec with Matchers {
   compose(fc, gc)(2) shouldBe 2
   compose(gc, fc)(2) shouldBe 3
   //</editor-fold>
-
-
 
 }

@@ -1,4 +1,4 @@
-package com.navoloch
+package com.navoloch.fp
 
 package object exercise2 {
 
@@ -46,7 +46,5 @@ package object exercise2 {
   def fc(b: Int): Int = b / 2
   def gc(a: Int): Int = a + 2
   //</editor-fold>
-
-
 
 }
