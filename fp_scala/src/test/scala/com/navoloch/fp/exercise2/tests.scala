@@ -1,8 +1,7 @@
 package com.navoloch.fp.exercise2
 
-import org.scalatest._
-
 import org.junit.runner.RunWith
+import org.scalatest._
 import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
